@@ -11,7 +11,7 @@ app.use(express.json());
 // Connect to MongoDB
 mongoose
   .connect(
-    "mongodb+srv://somyalab:edlab@cluster0.gi72v8f.mongodb.net/" + "DDos"
+    "mongodb+srv://<>:<>@cluster0.gi72v8f.mongodb.net/" + "DDos"
   )
   .then(() => console.log("MongoDB connected"))
   .catch((err) => console.log(err));
